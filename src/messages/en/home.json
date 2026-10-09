@@ -35,5 +35,11 @@
       "op2": "Flexible daily routines",
       "op3": "Adjustable recommendations"
     }
+  },
+
+  "progress": {
+    "caption": "PROGRESS",
+    "title": "See the bigger picture of your growth.",
+    "description": "See how each life dimension is evolving, celebrate what is steady and understand where a little more focus could make a difference."
   }
 }

@@ -4,6 +4,7 @@ import AboutSection from '@/sections/home/AboutSection';
 import DomainSection from '@/sections/home/DomainSection';
 import FeaturesSections from '@/sections/home/FeaturesSections';
 import HeroSection from '@/sections/home/HeroSection';
+import ProgressSections from '@/sections/home/ProgressSections';
 import StepsSection from '@/sections/home/StepsSection';
 
 interface Props {
@@ -35,6 +36,11 @@ export default async function Page({ params }: Props) {
             <StepsSection />
 
             <FeaturesSections
+                locale={locale}
+                t={t}
+            />
+
+            <ProgressSections
                 locale={locale}
                 t={t}
             />

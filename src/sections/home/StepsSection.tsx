@@ -21,18 +21,17 @@ export default function StepsSection() {
     return (
         <Section
             id={MAIN_SECTIONS.steps}
-            className='bg-[#FFFDF9] py-10 lg:py-16'
+            className='bg-[#FFFDF9] py-8 sm:py-10 lg:py-16'
         >
             <Container>
-                <div className='flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16 max-w-300 mx-auto'>
+                <div className='flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16 w-full max-w-300 mx-auto'>
 
                     {/* Glassmorphic Content Card */}
                     <div
                         className={cn(
-                            "relative isolate w-full lg:w-155.5 min-h-80",
+                            "relative isolate w-full lg:w-155.5 min-h-80 shrink-0",
                             "p-6 sm:p-[34.5px_32px_58px] rounded-[16px] overflow-hidden",
                             "flex flex-col justify-between gap-6 sm:gap-8",
-                            // تم زيادة الـ opacity من /34 إلى /65 وتعديل الـ gradient لتنقل أغمق
                             "bg-linear-to-br from-white/90 via-white/30 to-white/90 bg-[#EEF5EF]/65",
                             "border border-white/80 backdrop-blur-[15px]",
                             "shadow-[0px_6px_18px_-12px_rgba(150,162,152,0.15)]"
@@ -63,19 +62,20 @@ export default function StepsSection() {
                         </div>
                     </div>
 
-                    {/* Right Side Image & Dots Controller */}
-                    <div className="flex flex-col items-center gap-8 w-full lg:w-auto">
-                        <div className="relative shrink-0 flex justify-center items-center w-full">
+                    {/* Right Side Image & Dots Controller (مطابق تماماً لباقي السكاشن) */}
+                    <div className="flex flex-col items-center justify-center gap-8 w-full lg:w-auto shrink-0">
+                        <div className="relative w-full shrink-0 flex justify-center items-center">
                             <Image
                                 src={isAr ? currentStep.imgAr : currentStep.imgEN}
                                 alt={isAr ? currentStep.titleAr : currentStep.titleEn}
                                 width={0}
                                 height={0}
-                                sizes="100vw"
-                                className="w-auto h-auto max-h-145 sm:max-h-160 lg:max-h-170 object-contain drop-shadow-2xl transition-all duration-300"
+                                sizes="(max-width: 1024px) 100vw, 50vw"
+                                className="w-auto h-auto max-h-105 sm:max-h-130 lg:max-h-170 object-contain drop-shadow-2xl transition-all duration-300"
                                 priority
                             />
                         </div>
+
                         {/* Dots Carousel Pagination */}
                         <div className="flex items-center gap-2 h-1.5">
                             {steps.map((_, index) => (
