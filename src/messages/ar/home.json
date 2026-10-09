@@ -1,0 +1,26 @@
+{
+  "brand": {
+    "phase": "Phase 1"
+  },
+  "actions": {
+    "signout": "Sign Out"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "overview": "Overview",
+    "users": "Users",
+    "goals": "Goals & Practices",
+    "assessments": "Assessments",
+    "subscriptions": "Subscriptions",
+    "notifications": "Notifications",
+    "support": "Messages & Support",
+    "teams": "Team & Roles",
+    "settings": "Settings",
+    "staff": "Staff",
+    "subscriptionsList": "Subscriptions",
+    "plans": "Plans",
+    "providerEvents": "Webhooks",
+    "audit": "Audit log",
+    "reports": "Reports"
+  }
+}

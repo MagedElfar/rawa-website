@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Grow with intention. Live with balance.",
+    "description": "RAWA helps you build meaningful practices across the areas of life that matter most — creating a personal path toward lasting, balanced growth.",
+    "caption": "PERSONAL GROWTH, THOUGHTFULLY CONNECTED",
+    "download": "Download RAWA",
+    "discoverBtn": "Discover How It Works"
+  },
+
+  "about": {
+    "title": "Your life is more than one habit.",
+    "description": "Real growth is connected. RAWA helps you understand how different parts of your life support one another, then turns that awareness into small, sustainable practices shaped around you."
+  },
+
+  "domain": {
+    "title": "Growth across every dimension of life.",
+    "description": "Nine connected areas. One balanced path that reflects the whole of who you are.",
+    "health": "Health",
+    "spiritual": "Spiritual",
+    "social": "Social",
+    "knowledge": "Knowledge",
+    "family": "Family",
+    "finance": "Finance",
+    "profession": "Profession",
+    "behaviors": "Behaviors",
+    "skills": "Skills"
+  },
+
+  "features": {
+    "caption": "PERSONAL DEVELOPMENT PLAN",
+    "title": "A personal plan for meaningful progress.",
+    "description": "Turn insight into action with personalized goals, practical daily practices, flexible routines and recommendations you can adjust whenever you need.",
+    "options": {
+      "op1": "Personalized goals",
+      "op2": "Flexible daily routines",
+      "op3": "Adjustable recommendations"
+    }
+  }
+}

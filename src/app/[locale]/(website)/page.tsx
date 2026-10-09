@@ -1,0 +1,43 @@
+
+import { getAppTranslation } from '@/lib/i18n/getTranslations';
+import AboutSection from '@/sections/home/AboutSection';
+import DomainSection from '@/sections/home/DomainSection';
+import FeaturesSections from '@/sections/home/FeaturesSections';
+import HeroSection from '@/sections/home/HeroSection';
+import StepsSection from '@/sections/home/StepsSection';
+
+interface Props {
+    params: Promise<{ locale: string }>
+}
+
+export default async function Page({ params }: Props) {
+
+    const { locale } = await params;
+    const t = await getAppTranslation(locale, "home")
+
+    return (
+        <>
+            <HeroSection
+                locale={locale}
+                t={t}
+            />
+
+            <AboutSection
+                locale={locale}
+                t={t}
+            />
+
+            <DomainSection
+                locale={locale}
+                t={t}
+            />
+
+            <StepsSection />
+
+            <FeaturesSections
+                locale={locale}
+                t={t}
+            />
+        </>
+    )
+}

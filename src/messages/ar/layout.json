@@ -1,0 +1,26 @@
+{
+  "brand": {
+    "phase": "المرحلة الأولى"
+  },
+  "actions": {
+    "signout": "تسجيل الخروج"
+  },
+  "navigation": {
+    "dashboard": "لوحة التحكم",
+    "overview": "نظرة عامة",
+    "users": "المستخدمون",
+    "goals": "الأهداف والممارسات",
+    "assessments": "التقييمات",
+    "subscriptions": "الاشتراكات",
+    "notifications": "الإشعارات",
+    "support": "الرسائل والدعم",
+    "teams": "الفريق والأدوار",
+    "settings": "الإعدادات",
+    "staff": "الفريق",
+    "subscriptionsList": "الاشتراكات",
+    "plans": "الباقات",
+    "providerEvents": "Webhooks",
+    "audit": "سجل التدقيق",
+    "reports": "التقارير"
+  }
+}
