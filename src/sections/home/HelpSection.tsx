@@ -20,7 +20,7 @@ export default function HelpSection({ locale, t }: Props) {
             {/* Decorative background — hidden from screen readers, flipped in RTL */}
             <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 rtl:-scale-x-100">
                 {/* Faint secondary glow near the bottom (2nd gradient in the design) */}
-                <div className="absolute -bottom-64 start-[20%] size-[520px] rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.10)_0%,transparent_70%)] blur-2xl" />
+                <div className="absolute -bottom-64 inset-s-[20%] size-130 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.10)_0%,transparent_70%)] blur-2xl" />
                 {/* Thin wavy line crossing the section */}
                 <Image
                     src="/home/help-line.png"
@@ -43,7 +43,7 @@ export default function HelpSection({ locale, t }: Props) {
                         {/* Main glow — anchored to the title's start edge so it follows the text on every screen size */}
                         <div
                             aria-hidden
-                            className="pointer-events-none absolute -start-60 -top-52 -z-10 size-[480px] rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.24)_0%,rgba(255,255,255,0.08)_40%,transparent_70%)] blur-xl"
+                            className="pointer-events-none absolute -inset-s-60 -top-52 -z-10 size-120 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.24)_0%,rgba(255,255,255,0.08)_40%,transparent_70%)] blur-xl"
                         />
                         <SubTitle
                             title={t('helps.title')}
