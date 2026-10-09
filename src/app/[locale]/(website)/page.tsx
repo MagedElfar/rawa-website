@@ -5,6 +5,7 @@ import DesignSection from '@/sections/home/DesignSection';
 import DomainSection from '@/sections/home/DomainSection';
 import FeaturesSections from '@/sections/home/FeaturesSections';
 import GrowSection from '@/sections/home/GrowSection';
+import HelpSection from '@/sections/home/HelpSection';
 import HeroSection from '@/sections/home/HeroSection';
 import ProgressSections from '@/sections/home/ProgressSections';
 import StepsSection from '@/sections/home/StepsSection';
@@ -53,6 +54,11 @@ export default async function Page({ params }: Props) {
             />
 
             <GrowSection
+                t={t}
+            />
+
+            <HelpSection
+                locale={locale}
                 t={t}
             />
         </>

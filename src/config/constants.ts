@@ -11,7 +11,8 @@ export const MAIN_SECTIONS = {
     steps: "steps",
     progress: "progress",
     design: "design",
-    grows: "grow"
+    grows: "grow",
+    helps: "help"
 }
 
 export const space_size = "space-y-4 lg:space-y-6"
