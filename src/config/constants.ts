@@ -9,7 +9,9 @@ export const MAIN_SECTIONS = {
     download: "download",
     domain: "domain",
     steps: "steps",
-    progress: "progress"
+    progress: "progress",
+    design: "design",
+    grows: "grow"
 }
 
 export const space_size = "space-y-4 lg:space-y-6"

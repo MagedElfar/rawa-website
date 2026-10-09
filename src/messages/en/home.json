@@ -41,5 +41,40 @@
     "caption": "PROGRESS",
     "title": "See the bigger picture of your growth.",
     "description": "See how each life dimension is evolving, celebrate what is steady and understand where a little more focus could make a difference."
+  },
+
+  "design": {
+    "title": "Designed for moments of honest reflection.",
+    "description": "A calm, focused experience that makes every step feel clear and personal."
+  },
+
+  "grow": {
+    "title": "Everything you need to grow your way.",
+    "options": {
+      "op_1": {
+        "title": "Personalized Plans",
+        "description": "Plans built from your own priorities, needs and pace."
+      },
+      "op_2": {
+        "title": "Daily Practices",
+        "description": "Small, meaningful actions designed to fit real life."
+      },
+      "op_3": {
+        "title": "Progress Tracking",
+        "description": "A clear view of how every life dimension is growing."
+      },
+      "op_4": {
+        "title": "Flexible Goals",
+        "description": "Adjust your direction whenever your life changes."
+      },
+      "op_5": {
+        "title": "Gentle Reminders",
+        "description": "Thoughtful prompts that encourage without pressure."
+      },
+      "op_6": {
+        "title": "Holistic Life Dimensions",
+        "description": "Grow as a whole person, not as a set of isolated habits."
+      }
+    }
   }
 }

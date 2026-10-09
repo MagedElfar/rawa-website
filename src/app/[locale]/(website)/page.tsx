@@ -1,8 +1,10 @@
 
 import { getAppTranslation } from '@/lib/i18n/getTranslations';
 import AboutSection from '@/sections/home/AboutSection';
+import DesignSection from '@/sections/home/DesignSection';
 import DomainSection from '@/sections/home/DomainSection';
 import FeaturesSections from '@/sections/home/FeaturesSections';
+import GrowSection from '@/sections/home/GrowSection';
 import HeroSection from '@/sections/home/HeroSection';
 import ProgressSections from '@/sections/home/ProgressSections';
 import StepsSection from '@/sections/home/StepsSection';
@@ -42,6 +44,15 @@ export default async function Page({ params }: Props) {
 
             <ProgressSections
                 locale={locale}
+                t={t}
+            />
+
+            <DesignSection
+                locale={locale}
+                t={t}
+            />
+
+            <GrowSection
                 t={t}
             />
         </>
