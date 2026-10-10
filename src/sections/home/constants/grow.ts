@@ -21,7 +21,12 @@ export const growOptions = [
         style: glass(['#FBFCFB', '#F8FAF8', '#F5F7F5', '#F3F6F3', '#F3F5F3', '#F3F5F3', '#F3F5F3']),
     },
     {
-        key: 'op_2', icon: '/home/g-icon-2.svg', className: highlightClass, iconTop: 44, descGap: 8, textWidth: 379,
+        key: 'op_2',
+        icon: '/home/g-icon-2.svg',
+        className: highlightClass,
+        iconTop: 40,
+        descGap: 38.64,
+        textWidth: 380,
         style: highlightStyle,
     },
     {

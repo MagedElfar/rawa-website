@@ -44,83 +44,83 @@
   },
 
   "design": {
-    "title": "Designed for moments of honest reflection.",
-    "description": "A calm, focused experience that makes every step feel clear and personal."
+    "title": "مصمم للحظات من التأمل الصادق.",
+    "description": "تجربة هادئة ومركزة تجعل كل خطوة واضحة وشخصية."
   },
 
   "grow": {
-    "title": "Everything you need to grow your way.",
+    "title": "كل ما تحتاجه لتنمو بطريقتك.",
     "options": {
       "op_1": {
-        "title": "Personalized Plans",
-        "description": "Plans built from your own priorities, needs and pace."
+        "title": "الخطط الشخصية",
+        "description": "خطط مبنية على أولوياتك واحتياجاتك ووتيرتك."
       },
       "op_2": {
-        "title": "Daily Practices",
-        "description": "Small, meaningful actions designed to fit real life."
+        "title": "الممارسات اليومية",
+        "description": "خطوات صغيرة وهادفة تناسب حياتك اليومية."
       },
       "op_3": {
-        "title": "Progress Tracking",
-        "description": "A clear view of how every life dimension is growing."
+        "title": "متابعة التقدم",
+        "description": "رؤية واضحة لتطور كل جانب من جوانب حياتك."
       },
       "op_4": {
-        "title": "Flexible Goals",
-        "description": "Adjust your direction whenever your life changes."
+        "title": "أهداف مرنة",
+        "description": "عدّل مسارك كلما تغيّرت ظروف حياتك."
       },
       "op_5": {
-        "title": "Gentle Reminders",
-        "description": "Thoughtful prompts that encourage without pressure."
+        "title": "تذكيرات لطيفة",
+        "description": "تذكيرات مدروسة تشجعك دون ضغط."
       },
       "op_6": {
-        "title": "Holistic Life Dimensions",
-        "description": "Grow as a whole person, not as a set of isolated habits."
+        "title": "جوانب الحياة المتكاملة",
+        "description": "انمُ كشخص متكامل، وليس كمجموعة من العادات المنفصلة."
       }
     }
   },
 
   "helps": {
-    "title": "Growth doesn’t have to happen all at once.",
-    "description": "RAWA helps you move forward intentionally — one meaningful practice, one dimension, and one day at a time."
+    "title": "النمو لا يحتاج أن يحدث دفعة واحدة.",
+    "description": "تساعدك RAWA على التقدم بوعي — ممارسة هادفة، وجانب واحد، ويوم واحد في كل مرة."
   },
 
   "download": {
-    "title": "Your growth journey starts here.",
-    "description": "Take the first step toward a more intentional, balanced life with RAWA."
+    "title": "رحلة نموك تبدأ من هنا.",
+    "description": "اتخذ خطوتك الأولى نحو حياة أكثر وعيًا وتوازنًا مع RAWA."
   },
 
   "faq": {
-    "title": "Questions, answered with clarity.",
+    "title": "الأسئلة الأكثر شيوعًا",
     "questions": {
-      "q_1": "What is RAWA?",
-      "an_1": "RAWA is a personal growth app that helps you reflect, set meaningful goals and build sustainable practices across nine areas of life.",
-      "q_2": "How is my personal plan created?",
-      "an_2": "Your plan is shaped by your assessment, priorities and preferred pace. You can refine it as your needs change.",
-      "q_3": "Can I change my goals and practices?",
-      "an_3": "Yes. RAWA is designed to be flexible, so your goals, routines and recommendations can evolve with you.",
-      "q_4": "Will RAWA be available in Arabic and English?",
-      "an_4": "Yes. RAWA is designed as a bilingual experience with complete Arabic and English support."
+      "q_1": "ما هي RAWA؟",
+      "an_1": "روك هو تطبيق للنمو الشخصي يساعدك على التأمل، ووضع أهداف ذات مغزى، وبناء ممارسات مستدامة عبر تسعة مجالات في الحياة.",
+      "q_2": "كيف يتم إنشاء خطتي الشخصية؟",
+      "an_2": "تتشكل خطتك بناءً على تقييمك وأولوياتك والوتيرة التي تفضلها. ويمكنك تعديلها وتطويرها كلما تغيرت احتياجاتك.",
+      "q_3": "هل يمكنني تغيير أهدافي وممارساتي؟",
+      "an_3": "نعم. تم تصميم رواء ليكون مرناً، بحيث تتطور أهدافك وروتينك وتوصياتك معك باستمرار.",
+      "q_4": "هل ستكون RAWA متاحة باللغتين العربية والإنجليزية؟",
+      "an_4": "نعم. تم تصميم رواء ليوفر تجربة ثنائية اللغة مع دعم كامل للغتين العربية والإنجليزية."
     }
   },
 
   "contact": {
-    "title": "We’d love to hear from you.",
-    "description": "Have a question or want to learn more about RAWA? Send us a message.",
+    "title": "يسعدنا أن نسمع منك.",
+    "description": "لديك سؤال أو ترغب في معرفة المزيد عن RAWA؟ أرسل لنا رسالتك.",
     "form": {
       "actions": {
-        "submit": "Send a message"
+        "submit": "إرسال الرسالة"
       },
       "inputs": {
-        "email": "Email",
-        "name": "Name",
-        "message": "Message"
+        "email": "البريد الإلكتروني",
+        "name": "الاسم",
+        "message": "الرسالة"
       },
       "error": {
-        "email": "Email is required",
-        "name": "Name is required",
-        "message": "Message is required"
+        "email": "البريد الإلكتروني مطلوب",
+        "name": "الاسم مطلوب",
+        "message": "الرسالة مطلوبة"
       },
       "messages": {
-        "success": "Message sent successfully"
+        "success": "تم إرسال الرسالة بنجاح"
       }
     }
   }

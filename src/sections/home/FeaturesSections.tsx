@@ -23,7 +23,11 @@ export default function FeaturesSections({ locale, t }: Props) {
         >
             <Container>
                 {/* التعديل هنا: تحويل flex-row ليكون عند lg بدلاً من md لمنع انغلاق مساحة الصورة في التابلت */}
-                <div className='flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-16 w-full'>
+                <div className={cn(
+                    'flex flex-col justify-between items-center gap-10 lg:gap-16 w-full',
+                    locale === "ar" ? "lg:flex-row-reverse" : "lg:flex-row"
+
+                )}>
 
                     {/* Left Text Content */}
                     <div className={cn(

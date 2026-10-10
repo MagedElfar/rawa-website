@@ -46,11 +46,11 @@ export default function DesignSection({ locale, t }: Props) {
                 {/* Section Title & Description Header */}
                 <div className='space-y-3 sm:space-y-4 max-w-190 mx-auto text-center'>
                     <SubTitle
-                        title={t("domain.title")}
+                        title={t("design.title")}
                         className='text-center'
                     />
                     <Paragraph
-                        text={t("domain.description")}
+                        text={t("design.description")}
                         className="text-center text-[#A7A09A]"
                     />
                 </div>

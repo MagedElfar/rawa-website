@@ -1,7 +1,8 @@
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpLeft, ArrowUpRight } from 'lucide-react';
 import { useEffect, useRef, type ReactNode } from 'react';
 import { useFormState } from 'react-hook-form';
 
+import { useAppLocale } from '@/lib/i18n/use-locale';
 import { useAppTranslation } from '@/lib/i18n/use-translation';
 import { cn } from '@/lib/utils';
 
@@ -25,6 +26,7 @@ export function FormContainer({ action, children, submitText, contentClassName, 
     const isUploading = Object.values(errors).some(err => err?.message === "uploading");
 
     const t = useAppTranslation("layout")
+    const { lang } = useAppLocale()
 
     useEffect(() => {
         if (!isSubmitted || Object.keys(errors).length === 0) return;
@@ -96,7 +98,7 @@ export function FormContainer({ action, children, submitText, contentClassName, 
                     ) : (
                         submitText || t("form.actions.submit")
                     )}
-                    <ArrowUpRight size={20} />
+                    {lang === "en" ? <ArrowUpRight size={20} /> : <ArrowUpLeft size={20} />}
 
                 </button>
                 {action}

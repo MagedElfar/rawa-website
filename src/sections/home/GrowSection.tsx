@@ -36,7 +36,7 @@ export default function GrowSection({ t }: Props) {
                                 } as CSSProperties
                             }
                             className={cn(
-                                'flex flex-col pt-5 pb-5 lg:pt-0 lg:pb-0 lg:min-h-64',
+                                'flex flex-col justify-start pt-5 pb-5 lg:pt-0 lg:pb-0 lg:min-h-64',
                                 op.className
                             )}
                         >

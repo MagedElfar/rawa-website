@@ -43,7 +43,8 @@ export default function AboutSection({ locale, t }: Props) {
 
                 {/* حاوية النص: متمركزة عادي في الموبايل، ومحاذاة لليمين مع هامش على Desktop */}
                 <div className={cn(
-                    "relative z-10 w-full lg:w-[60%] lg:ms-auto max-w-160",
+                    "relative z-10 w-full lg:w-[60%] lg:ms-auto",
+                    locale === "ar" ? "max-w-130" : "max-w-175",
                     space_size
                 )}>
                     <SubTitle
