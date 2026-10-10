@@ -86,5 +86,42 @@
   "download": {
     "title": "Your growth journey starts here.",
     "description": "Take the first step toward a more intentional, balanced life with RAWA."
+  },
+
+  "faq": {
+    "title": "Questions, answered with clarity.",
+    "questions": {
+      "q_1": "What is RAWA?",
+      "an_1": "RAWA is a personal growth app that helps you reflect, set meaningful goals and build sustainable practices across nine areas of life.",
+      "q_2": "How is my personal plan created?",
+      "an_2": "Your plan is shaped by your assessment, priorities and preferred pace. You can refine it as your needs change.",
+      "q_3": "Can I change my goals and practices?",
+      "an_3": "Yes. RAWA is designed to be flexible, so your goals, routines and recommendations can evolve with you.",
+      "q_4": "Will RAWA be available in Arabic and English?",
+      "an_4": "Yes. RAWA is designed as a bilingual experience with complete Arabic and English support."
+    }
+  },
+
+  "contact": {
+    "title": "We’d love to hear from you.",
+    "description": "Have a question or want to learn more about RAWA? Send us a message.",
+    "form": {
+      "actions": {
+        "submit": "Send a message"
+      },
+      "inputs": {
+        "email": "Email",
+        "name": "Name",
+        "message": "Message"
+      },
+      "error": {
+        "email": "Email is required",
+        "name": "Name is required",
+        "message": "Message is required"
+      },
+      "messages": {
+        "success": "Message sent successfully"
+      }
+    }
   }
 }

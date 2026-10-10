@@ -9,5 +9,10 @@
     "faq": "FAQ",
     "download": "Download RAWA",
     "lang": "AR"
+  },
+  "form": {
+    "actions": {
+      "submit": "Submit"
+    }
   }
 }
