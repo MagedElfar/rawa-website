@@ -2,6 +2,7 @@
 
 import { MAIN_SECTIONS } from '@/config/constants'
 import { Link, usePathname, useRouter } from '@/lib/i18n/routing'
+import { useAppLocale } from '@/lib/i18n/use-locale'
 import { useAppTranslation } from '@/lib/i18n/use-translation'
 
 import Container from './Container'
@@ -17,6 +18,7 @@ const EXTERNAL_LINKS = {
 
 export default function Footer() {
     const t = useAppTranslation("layout")
+    const { lang } = useAppLocale()
     const pathname = usePathname()
     const router = useRouter()
 

@@ -1,4 +1,4 @@
-import { ArrowUpRight } from 'lucide-react'
+import { ArrowUpLeft, ArrowUpRight } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import React from 'react'
@@ -55,7 +55,7 @@ export default function HeroSection({ locale, t }: Props) {
                                 href={`/#${MAIN_SECTIONS.download}`}
                             >
                                 {t("hero.download")}
-                                <ArrowUpRight size={20} />
+                                {locale === "en" ? <ArrowUpRight size={20} /> : <ArrowUpLeft size={20} />}
                             </DarkButtonLink>
                         </div>
                     </div>

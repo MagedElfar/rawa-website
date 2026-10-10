@@ -1,26 +1,46 @@
 {
-  "brand": {
-    "phase": "المرحلة الأولى"
+  "nav": {
+    "features": "المميزات",
+    "about": "من نحن",
+    "contact": "تواصل معنا",
+    "home": "الرئيسية",
+    "howItWorks": "كيف تعمل",
+    "preview": "معاينة التطبيق",
+    "faq": "الأسئلة الشائعة",
+    "download": "حمّل RAWA",
+    "lang": "EN"
   },
-  "actions": {
-    "signout": "تسجيل الخروج"
+  "footer": {
+    "links_1": {
+      "home": "الرئيسية",
+      "howItWorks": "كيف تعمل",
+      "contact": "تواصل معنا"
+    },
+    "links_2": {
+      "about": "من نحن",
+      "preview": "معاينة التطبيق"
+    },
+    "links_3": {
+      "about": "من نحن",
+      "preview": "معاينة التطبيق",
+      "features": "المميزات",
+      "faq": "الأسئلة الشائعة"
+    },
+    "links_4": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "instagram": "Instagram",
+      "linkedIn": "LinkedIn"
+    },
+    "links_5": {
+      "privacyPolicy": "سياسة الخصوصية",
+      "termsConditions": "الشروط والأحكام"
+    },
+    "copyWrite": "© 2026 RAWA. جميع الحقوق محفوظة"
   },
-  "navigation": {
-    "dashboard": "لوحة التحكم",
-    "overview": "نظرة عامة",
-    "users": "المستخدمون",
-    "goals": "الأهداف والممارسات",
-    "assessments": "التقييمات",
-    "subscriptions": "الاشتراكات",
-    "notifications": "الإشعارات",
-    "support": "الرسائل والدعم",
-    "teams": "الفريق والأدوار",
-    "settings": "الإعدادات",
-    "staff": "الفريق",
-    "subscriptionsList": "الاشتراكات",
-    "plans": "الباقات",
-    "providerEvents": "Webhooks",
-    "audit": "سجل التدقيق",
-    "reports": "التقارير"
+  "form": {
+    "actions": {
+      "submit": "إرسال"
+    }
   }
 }

@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowUpRight, Menu, X } from 'lucide-react';
+import { ArrowUpLeft, ArrowUpRight, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 import { MAIN_SECTIONS } from '@/config/constants';
@@ -15,6 +15,7 @@ import LightButton from '../buttons/LightButton';
 
 export default function Nav() {
 
+    const { lang } = useAppLocale()
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const t = useAppTranslation("layout");
     const { toggleLanguage } = useAppLocale()
@@ -94,7 +95,7 @@ export default function Nav() {
                     href={`/#${MAIN_SECTIONS.download}`}
                     children={<>
                         {t("nav.download")}
-                        <ArrowUpRight size={20} />
+                        {lang === "en" ? <ArrowUpRight size={20} /> : <ArrowUpLeft size={20} />}
                     </>}
                     className='px-3 py-1.5 min-h-0'
                 />
@@ -143,7 +144,7 @@ export default function Nav() {
                         href={`/#${MAIN_SECTIONS.download}`}
                         children={<>
                             {t("nav.download")}
-                            <ArrowUpRight size={20} />
+                            {lang === "en" ? <ArrowUpRight size={20} /> : <ArrowUpLeft size={20} />}
                         </>}
                         className='px-3 py-1.5 min-h-0'
                     />

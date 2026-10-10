@@ -1,26 +1,127 @@
 {
-  "brand": {
-    "phase": "Phase 1"
+  "hero": {
+    "title": "انمُ بوعي، وعِش بتوازن.",
+    "description": "تساعدك RAWA على بناء ممارسات هادفة في أهم جوانب حياتك، لتصنع مسارًا شخصيًا نحو نمو مستدام ومتوازن.",
+    "caption": "النمو الشخصي، بترابط واعٍ ومدروس",
+    "download": "حمّل RAWA",
+    "discoverBtn": "اكتشف كيف تعمل"
   },
-  "actions": {
-    "signout": "Sign Out"
+
+  "about": {
+    "title": "حياتك أكبر من مجرد عادة واحدة.",
+    "description": "النمو الحقيقي مترابط. تساعدك RAWA على فهم كيف تدعم جوانب حياتك المختلفة بعضها البعض، ثم تحوّل هذا الوعي إلى ممارسات صغيرة ومستدامة، مصممة بما يتناسب معك."
   },
-  "navigation": {
-    "dashboard": "Dashboard",
-    "overview": "Overview",
-    "users": "Users",
-    "goals": "Goals & Practices",
-    "assessments": "Assessments",
-    "subscriptions": "Subscriptions",
-    "notifications": "Notifications",
-    "support": "Messages & Support",
-    "teams": "Team & Roles",
-    "settings": "Settings",
-    "staff": "Staff",
-    "subscriptionsList": "Subscriptions",
-    "plans": "Plans",
-    "providerEvents": "Webhooks",
-    "audit": "Audit log",
-    "reports": "Reports"
+
+  "domain": {
+    "title": "نمو متوازن في كل جانب من جوانب الحياة.",
+    "description": "تسعة جوانب مترابطة. مسار متوازن يعكس شخصيتك بكل جوانبها.",
+    "health": "الصحة",
+    "spiritual": "الروحانيات",
+    "social": "العلاقات الاجتماعية",
+    "knowledge": "المعرفة",
+    "family": "العائلة",
+    "finance": "المال",
+    "profession": "المهنة",
+    "behaviors": "السلوكيات",
+    "skills": "المهارات"
+  },
+
+  "features": {
+    "caption": "خطة التطور الشخصي",
+    "title": "خطة شخصية نحو تقدم هادف.",
+    "description": "حوّل وعيك إلى خطوات عملية من خلال أهداف مخصصة، وممارسات يومية بسيطة، وروتينات مرنة، وتوصيات يمكنك تعديلها كلما احتجت.",
+    "options": {
+      "op1": "أهداف مخصصة",
+      "op2": "روتينات يومية مرنة",
+      "op3": "توصيات قابلة للتعديل"
+    }
+  },
+
+  "progress": {
+    "caption": "التقدم",
+    "title": "شاهد الصورة الأكبر لنموك.",
+    "description": "تابع تطور كل جانب من جوانب حياتك، واحتفل بما يسير بثبات، واكتشف أين يمكن لمزيد من التركيز أن يُحدث فرقًا."
+  },
+
+  "design": {
+    "title": "Designed for moments of honest reflection.",
+    "description": "A calm, focused experience that makes every step feel clear and personal."
+  },
+
+  "grow": {
+    "title": "Everything you need to grow your way.",
+    "options": {
+      "op_1": {
+        "title": "Personalized Plans",
+        "description": "Plans built from your own priorities, needs and pace."
+      },
+      "op_2": {
+        "title": "Daily Practices",
+        "description": "Small, meaningful actions designed to fit real life."
+      },
+      "op_3": {
+        "title": "Progress Tracking",
+        "description": "A clear view of how every life dimension is growing."
+      },
+      "op_4": {
+        "title": "Flexible Goals",
+        "description": "Adjust your direction whenever your life changes."
+      },
+      "op_5": {
+        "title": "Gentle Reminders",
+        "description": "Thoughtful prompts that encourage without pressure."
+      },
+      "op_6": {
+        "title": "Holistic Life Dimensions",
+        "description": "Grow as a whole person, not as a set of isolated habits."
+      }
+    }
+  },
+
+  "helps": {
+    "title": "Growth doesn’t have to happen all at once.",
+    "description": "RAWA helps you move forward intentionally — one meaningful practice, one dimension, and one day at a time."
+  },
+
+  "download": {
+    "title": "Your growth journey starts here.",
+    "description": "Take the first step toward a more intentional, balanced life with RAWA."
+  },
+
+  "faq": {
+    "title": "Questions, answered with clarity.",
+    "questions": {
+      "q_1": "What is RAWA?",
+      "an_1": "RAWA is a personal growth app that helps you reflect, set meaningful goals and build sustainable practices across nine areas of life.",
+      "q_2": "How is my personal plan created?",
+      "an_2": "Your plan is shaped by your assessment, priorities and preferred pace. You can refine it as your needs change.",
+      "q_3": "Can I change my goals and practices?",
+      "an_3": "Yes. RAWA is designed to be flexible, so your goals, routines and recommendations can evolve with you.",
+      "q_4": "Will RAWA be available in Arabic and English?",
+      "an_4": "Yes. RAWA is designed as a bilingual experience with complete Arabic and English support."
+    }
+  },
+
+  "contact": {
+    "title": "We’d love to hear from you.",
+    "description": "Have a question or want to learn more about RAWA? Send us a message.",
+    "form": {
+      "actions": {
+        "submit": "Send a message"
+      },
+      "inputs": {
+        "email": "Email",
+        "name": "Name",
+        "message": "Message"
+      },
+      "error": {
+        "email": "Email is required",
+        "name": "Name is required",
+        "message": "Message is required"
+      },
+      "messages": {
+        "success": "Message sent successfully"
+      }
+    }
   }
 }

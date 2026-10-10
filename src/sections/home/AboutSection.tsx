@@ -27,7 +27,7 @@ export default function AboutSection({ locale, t }: Props) {
                 <div
                     className={cn(
                         "relative w-full max-w-[320px] sm:max-w-100 h-87.5 sm:h-112.5",
-                        "lg:absolute lg:-top-10 lg:left-0",
+                        "lg:absolute lg:-top-10 lg:inset-s-0",
                         "lg:w-140 lg:h-200 lg:max-w-none z-0"
                     )}
                 >
@@ -43,7 +43,7 @@ export default function AboutSection({ locale, t }: Props) {
 
                 {/* حاوية النص: متمركزة عادي في الموبايل، ومحاذاة لليمين مع هامش على Desktop */}
                 <div className={cn(
-                    "relative z-10 w-full lg:w-[60%] lg:ms-auto max-w-175",
+                    "relative z-10 w-full lg:w-[60%] lg:ms-auto max-w-160",
                     space_size
                 )}>
                     <SubTitle
