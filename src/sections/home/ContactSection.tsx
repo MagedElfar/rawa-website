@@ -1,11 +1,10 @@
 import { useTranslations } from 'next-intl'
-import React from 'react'
 
 import Container from '@/components/layout/Container'
 import Section from '@/components/layout/Section'
 import Paragraph from '@/components/typography/Paragraph'
 import SubTitle from '@/components/typography/SubTitle'
-import { space_size } from '@/config/constants'
+import { MAIN_SECTIONS, space_size } from '@/config/constants'
 import { cn } from '@/lib/utils'
 
 import { ContactForm } from './components/ContactForm'
@@ -16,7 +15,9 @@ interface Props {
 
 export default function ContactSection({ t }: Props) {
     return (
-        <Section className='bg-[#FBF6F4] py-12 lg:py-24'>
+        <Section
+            id={MAIN_SECTIONS.contact}
+            className='bg-[#FBF6F4] py-12 lg:py-24'>
             <Container>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-31 items-start">

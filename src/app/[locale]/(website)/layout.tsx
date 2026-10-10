@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 
+import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 
 interface Props {
@@ -20,6 +21,7 @@ export default async function MainLayout({
         {children}
       </main>
 
+      <Footer />
     </div>
   );
 }

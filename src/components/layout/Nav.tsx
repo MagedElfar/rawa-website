@@ -4,6 +4,7 @@ import { ArrowUpRight, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 import { MAIN_SECTIONS } from '@/config/constants';
+import { useScrollToSection } from '@/hooks/useScrollToSection';
 import { Link } from '@/lib/i18n/routing';
 import { useAppLocale } from '@/lib/i18n/use-locale';
 import { useAppTranslation } from '@/lib/i18n/use-translation';
@@ -17,6 +18,12 @@ export default function Nav() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const t = useAppTranslation("layout");
     const { toggleLanguage } = useAppLocale()
+    const scrollToSection = useScrollToSection()
+
+    // بياخد الـ id من الـ href ("/#about" → "about") ويعمل smooth scroll
+    const handleNavClick = (e: React.MouseEvent<HTMLElement>, href: string) => {
+        scrollToSection(e, href.split('#')[1] ?? null)
+    }
 
     const navLinks = [
         {
@@ -69,6 +76,7 @@ export default function Nav() {
                         <Link
                             key={link.href}
                             href={link.href}
+                            onClick={(e) => handleNavClick(e, link.href)}
                             className="text-[12px] leading-4 font-medium text-stone-900 hover:text-stone-700 transition-colors duration-200"
                         >
                             {link.label}
@@ -113,7 +121,10 @@ export default function Nav() {
                             key={link.href}
                             href={link.href}
                             className="border-b border-stone-200/70 py-3 text-sm font-medium text-stone-900 transition-colors hover:text-stone-700 last:border-0"
-                            onClick={() => setIsMenuOpen(false)}
+                            onClick={(e) => {
+                                setIsMenuOpen(false)
+                                handleNavClick(e, link.href)
+                            }}
                         >
                             {link.label}
                         </Link>

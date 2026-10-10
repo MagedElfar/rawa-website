@@ -1,5 +1,8 @@
+"use client"
+
 import React from 'react'
 
+import { useScrollToSection } from '@/hooks/useScrollToSection';
 import { Link } from '@/lib/i18n/routing';
 import { cn } from '@/lib/utils';
 
@@ -14,9 +17,19 @@ export default function DarkButtonLink({
   href,
   className
 }: Props) {
+  const scrollToSection = useScrollToSection()
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // لو الـ href فيه # → smooth scroll، غير كده navigation عادي
+    if (href.includes('#')) {
+      scrollToSection(e, href.split('#')[1] ?? null)
+    }
+  }
+
   return (
     <Link
       href={href}
+      onClick={handleClick}
       className={cn(
         "flex items-center justify-center gap-3",
         "min-h-11 px-10 py-3 rounded-4xl relative",

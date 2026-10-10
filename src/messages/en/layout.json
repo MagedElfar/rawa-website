@@ -10,6 +10,34 @@
     "download": "Download RAWA",
     "lang": "AR"
   },
+  "footer": {
+    "links_1": {
+      "home": "Home",
+      "howItWorks": "How It Works",
+      "contact": "Contact"
+    },
+    "links_2": {
+      "about": "About",
+      "preview": "App Preview"
+    },
+    "links_3": {
+      "about": "About",
+      "preview": "App Preview",
+      "features": "Features",
+      "faq": "FAQ"
+    },
+    "links_4": {
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "instagram": "Instagram",
+      "linkedIn": "LinkedIn"
+    },
+    "links_5": {
+      "privacyPolicy": "Privacy Policy",
+      "termsConditions": "Terms & Conditions"
+    },
+    "copyWrite": "© 2026 RAWA. All rights reserved."
+  },
   "form": {
     "actions": {
       "submit": "Submit"
